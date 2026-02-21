@@ -1,0 +1,72 @@
+@charset "ISO-8859-1";
+
+.stud-list {
+    margin: auto;
+    overflow-x: auto;
+}
+
+.stud-list table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-family: sans-serif;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.stud-list th,
+.stud-list td {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.stud-list tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.stud-list th {
+	background-color: #4e73df;
+	color: white;
+    font-weight: bold;
+}
+
+.stud-list tr:hover {
+    background-color: #f8f8f8;
+}
+
+.stud-list {
+    padding-bottom: 20px;
+}
+
+.stud-list .student-photo {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.search-form {
+    float: right;
+    margin-top: 10px;
+}
+
+.search-form input {
+    display: inline-block;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    width: 200px;
+    padding: 7px 17px;
+}
+
+.search-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 10px;
+    border-radius: 4px;
+}
+
+.search-form button:hover {
+    background-color: #0069d9;
+}
